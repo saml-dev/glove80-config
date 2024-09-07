@@ -24,13 +24,13 @@
 #define LAYER_Magic 2
 #define LAYER_Gaming 3
 
-{
-    /* Custom Device-tree */
-    /* Glove80 system behavior & macros */
+/* Custom Device-tree */
+/* Glove80 system behavior & macros */
+/ {
 
-    /
+    
 
-    behaviors {
+     behaviors {
         // For the "layer" key, it'd nice to be able to use it as either a shift or a toggle.
         // Configure it as a tap dance, so the first tap (or hold) is a &mo and the second tap is a &to
 
